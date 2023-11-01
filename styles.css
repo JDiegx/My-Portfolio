@@ -1,0 +1,101 @@
+.navbar {
+    padding: 2rem;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos Generales*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.seccion-oscura {
+    background-color: black;
+    color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Poppins', sans-serif
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: 'Open Sauce One', sans-serif;
+}
+
+/* Seccion hero*/
+.hero {
+    background-color: white;
+    min-height: 450px;
+    /* Se le asigno una altura minima de 450px*/
+    text-align: center;
+    /* Alineamos el texto al centro*/
+
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-desarrollador {
+    width: 300px;
+    /* Establece el ancho en 400 píxeles */
+    border-radius: 50px;
+    /* Redondemos la imagen*/
+    margin: 20px;
+    /* Establecemos un margen al rededor de 20px*/
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Open Sauce One', sans-serif;
+}
+
+.hero-principal h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-inferior-imagen {
+    margin-top: -90px;
+    width: 500px;
+}
+
+/* Seccion hero*/
+.sobre-mi {
+    height: 600px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Seccion Sobre Mi*/
+
+
+/* Apadtable Responsivo*/
+@media screen and (min-width:700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+}
