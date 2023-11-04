@@ -28,6 +28,11 @@ h1 {
     color: white;
 }
 
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
 .seccion-titulo {
     font-size: 2rem;
     padding: 15px 0;
@@ -79,7 +84,9 @@ h1 {
     width: 500px;
 }
 
-/* Seccion hero*/
+
+/* Seccion Sobre Mi*/
+
 .sobre-mi {
     height: 600px;
     padding: 10px;
@@ -90,8 +97,50 @@ h1 {
     text-align: center;
 }
 
-/* Seccion Sobre Mi*/
+/* Experiencia*/
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
 
+.experiencia {}
+
+.experiencia i {
+    font-size: 24px;
+    padding: 8px 19px;
+}
+
+.experiencia-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.articulos-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+
+.estudiante-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.badges {
+    margin: 5px;
+}
 
 /* Apadtable Responsivo*/
 @media screen and (min-width:700px) {
